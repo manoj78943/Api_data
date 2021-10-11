@@ -1,0 +1,33 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #04aa5f;
+  color: black;}
+
+.imgr {
+height:5%;
+width:10%;
+border-radius:50%;}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f04f6a;
+  border: none;
+  color:black;
+}
+
+.container {
+  padding: 16px;}

@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Api page</title>
+    <link rel ="stylesheet" type="text/css" href = "{% static 'css/style.css' %}">
+</head>
+<body>
+<div class="topnav">
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#api">Api</a>
+</div>
+<div>
+    <img src="{% static 'images/api_logo.jpg' %}" alt="FREE API" class = "imgr">
+</div>
+<h4>COVID 19</h4>
+<p>The Corona Virus is a serious illness that causes very high fever, headache, and muscle aches. It can be fatal if not treated quickly. Symptoms of the virus start to show within three days after being exposed to the virus and last anywhere from six to ten days with some cases lasting up to two weeks. The Corona Virus is spread through contact with an infected person’s fluids such as saliva or sweat which also includes objects like food bowls or toys contaminated by these fluids while they are still wet. There is no vaccine for this particular virus, but there are treatments available that reduce the severity of symptoms while your body fights off infection on its own.</p>
+<p>Corona Virus is a disease that can affect humans, animals, and plants. It may be caused by the bite of an infected mosquito or contact with plant sap from an infected plant. Humans are most at risk during times when mosquitoes are most active, such as in late summer and early fall. The Corona Virus causes fever, muscle aches, headaches, and a rash on the chest that looks like a sunburn for about 3-14 days after exposure to the virus.</p>
+<p>You can check the records through these links...</p>
+<div class="container">
+    <button type="button" class="cancelbtn"><a href="/deaths" style="text-decoration: none">Deaths</a></button>
+    <button type="button" class="cancelbtn"><a href="/active" style="text-decoration: none">Active</a></button>
+    <button type="button" class="cancelbtn"><a href="/recovered" style="text-decoration: none">Recovered</a></button>
+</div>
+</body>
+</html>
